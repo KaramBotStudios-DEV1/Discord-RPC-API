@@ -51,3 +51,15 @@ Add Large Image Manually
 ```C#
 AddLargeImageKeyAndText(LargeImageKey, LargeImageText);
 ```
+
+## Examples
+
+Set Discord Rich Presence [1]
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+
+DiscordClient.SetFullRPC(912832157235431, "Playing CS:GO", null, "csgoimagekey", "CS:GO", null, null);
+```
