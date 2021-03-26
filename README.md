@@ -63,3 +63,53 @@ RPCCient DiscordClient = new RPCCient();
 
 DiscordClient.SetFullRPC(912832157235431, "Playing CS:GO", null, "csgoimagekey", "CS:GO", null, null);
 ```
+
+Set Discord Rich Presence [2]
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+
+DiscordClient.SetDiscordRPC(912832157235431);
+```
+
+Add State Manually
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+DiscordClient.SetDiscordRPC(912832157235431);
+DiscordClient.AddState("Hello World!");
+```
+
+Add Details Manually
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+DiscordClient.SetDiscordRPC(912832157235431);
+DiscordClient.AddDetails("Playing Game");
+```
+
+Add Large Image Manually
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+DiscordClient.SetDiscordRPC(912832157235431);
+DiscordClient.AddLargeImageKeyAndText("csgoimagekey", "CSGO");
+```
+
+Add Small Image Manually
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient DiscordClient = new RPCCient();
+DiscordClient.SetDiscordRPC(912832157235431);
+DiscordClient.AddSmallImageKeyAndText("Nice Logo", "Playing Logo");
+```
