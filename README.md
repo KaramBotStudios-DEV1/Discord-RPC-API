@@ -7,3 +7,10 @@ This is a simplified version of Discord API Made by Project Legacy.org
  * DIscord RPC
  * Project Legacy Simplified Discord RPC API
 
+## Initialization
+
+```C#
+using SimpleDiscordRPC;
+
+RPCCient ClientName = new RPCCient();
+```
