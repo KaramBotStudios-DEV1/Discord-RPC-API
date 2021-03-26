@@ -14,3 +14,11 @@ using SimpleDiscordRPC;
 
 RPCCient ClientName = new RPCCient();
 ```
+
+## Functions
+
+SetDiscordRPC
+
+```C#
+SetDiscordRPC(Client ID)
+```
