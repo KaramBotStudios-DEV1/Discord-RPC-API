@@ -2,6 +2,8 @@
 
 This is a simplified version of Discord API Made by Project Legacy.org
 
+![picture alt](https://raw.githubusercontent.com/KaramBotStudios-DEV1/Discord-RPC-API/main/Preview.jpg "Title is optional")
+
 ## Dependencies
 
  * DIscord RPC
